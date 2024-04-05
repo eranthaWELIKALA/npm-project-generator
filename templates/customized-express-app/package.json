@@ -1,0 +1,25 @@
+{
+  "name": "user-service",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node --env-file .env ./bin/www",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "config": "^3.3.11",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-validator": "^7.0.1",
+    "firebase-admin": "^12.0.0",
+    "helmet": "^7.1.0",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "mongoose": "^8.2.3",
+    "morgan": "~1.9.1",
+    "rotating-file-stream": "^3.2.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  }
+}
